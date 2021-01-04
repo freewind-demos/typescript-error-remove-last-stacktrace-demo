@@ -1,18 +1,10 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Error Remove last Stacktrace Demo
+============================================
+
+有时候我们为了方便，在某些工具函数里抛出了异常供外界使用，在异常抛出的时候，发现报告的错误信息是在工具函数内部而非调用处，价值不大，可以通过手动把最后那边调用信息去掉，让相应的打印工具打出更有用的信息。
 
 ```
 npm install
 npm run demo
-```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
 ```
 
